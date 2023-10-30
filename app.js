@@ -49,7 +49,10 @@ position.addEventListener("input", function(){
     }  
 })
 
-
-
+let twitter = document.querySelector (#twitter)
+twitter.addEventListener("input", function(){
+      document.querySelector()textElement.href = $www.twitter.com/.value
+    return
+  })
 
 
