@@ -1,0 +1,104 @@
+body {
+height: 100vh;
+max-width: 600px;
+margin: auto;
+font-family: 'Inter', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Pridi', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    height: 100px;
+}
+
+.cover-container img {
+    width: 545px;
+    height: 240px;
+}
+.cover-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 600px;
+    height: 266px;
+}
+
+.box-container {
+    margin-top: 180px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-inline: 165px;
+    margin-top: ;
+}
+
+#forRole {
+    display: flex;
+    justify-content: center;
+    margin-top: -13px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-inline: 220px;
+    margin-top: -32px;
+}
+
+.photo {
+    width: 125px;
+    margin-inline: 239px;
+    margin-top: -110px;
+    border-radius: 65px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -192px;
+}
+.positionL {
+    background: rgb(248, 83, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28px;
+    height: 66px;
+    justify-content: flex-end;
+}
+
+.positionR {
+    background-color: rgb(248, 83, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28px;
+    height: 66px;
+    justify-content: flex-end;
+}
