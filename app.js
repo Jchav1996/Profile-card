@@ -37,14 +37,19 @@ position.addEventListener("input", function(){
  sm.addEventListener("input", function(){
     if (sm.value === "Null") {
         document.querySelector(".positionL").style.display = 'none'
-    } else {
-        document.querySelector(".positionL").style.display = 'block'
-    }
-    if (sm.value === "Null") {
         document.querySelector(".positionR").style.display = 'none'
+    } else if (sm.value === "Left") {
+        document.querySelector(".positionL").style.display = 'flex'
+        document.querySelector(".positionR").style.display = 'none'
+        document.querySelector(".icons").style.justifyContent = 'flex-start'
     } else {
-        document.querySelector(".positionR").style.display = 'block'
+        document.querySelector(".positionR").style.display = 'flex'
+        document.querySelector(".positionL").style.display = 'none'
+        document.querySelector(".icons").style.justifyContent = 'flex-end'
     }  
-    
 })
+
+
+
+
 
