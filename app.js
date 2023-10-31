@@ -48,11 +48,6 @@ sm.addEventListener("input", function () {
   }
 });
 
-// let twitter = document.querySelector("#twitter");
-// twitter.addEventListener("input", function () {
-//   document.querySelector(".icons .positionL .twitter").href =
-//     "https://www.x.com/" + twitter.value;
-// });
 
 function bindLink(inputID, linkClass, link) {
   let input = document.querySelector(inputID);
